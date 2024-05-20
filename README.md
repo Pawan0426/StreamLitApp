@@ -18,38 +18,28 @@ This app is designed to analyze sentiment in Twitter data using a pre-trained mo
 
    ```bash
    pip install streamlit pandas numpy altair matplotlib seaborn wordcloud nltk
-   
-## Clone Repository
-
-Clone this repository to your local machine:
-
-```bash
+**Clone Repository**: Clone this repository to your local machine:
 git clone <repository-url>
 
-## Run app 
+**Run the App**: Navigate to the project directory and run the Streamlit app:
 streamlit run app.py
 
-
-**Files and Structure**
-
-app.py: Contains the main code for the Streamlit web application.
-pac_model.pkl: Pre-trained model file for sentiment analysis.
-tfidf_vectorizer.pkl: Pickle file containing TF-IDF vectorizer for text preprocessing.
-all_text.txt: Text file containing training dataset for sentiment analysis.
-all_text1.txt: Text file containing testing dataset for sentiment analysis.
-
-**Technologies Used**
-
-Streamlit: For building the interactive web application.
-Pandas, NumPy: For data manipulation and processing.
-Altair, Matplotlib, Seaborn: For data visualization.
-NLTK: For natural language processing tasks.
-WordCloud: For generating WordCloud visualizations.
+## Files and Structure
+**app.py**: Contains the main code for the Streamlit web application.
+**pac_model.pkl**: Pre-trained model file for sentiment analysis.
+**tfidf_vectorizer.pkl**: Pickle file containing TF-IDF vectorizer for text preprocessing.
+**all_text.txt**: Text file containing training dataset for sentiment analysis.
+**all_text1.txt**: Text file containing testing dataset for sentiment analysis.
+  
+## Technologies Used
+**Streamlit**: For building the interactive web application.
+**Pandas, NumPy**: For data manipulation and processing.
+**Altair, Matplotlib, Seaborn**: For data visualization.
+**NLTK**: For natural language processing tasks.
+**WordCloud**: For generating WordCloud visualizations.
 
 ## Acknowledgements
-
 This project was inspired by the need for sentiment analysis in social media data. The sentiment analysis model was trained using a Passive Aggressive Classifier and TF-IDF vectorizer.
 
 ## Author
-
 Pawan Singh
