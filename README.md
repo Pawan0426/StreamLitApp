@@ -26,24 +26,25 @@ Clone this repository to your local machine:
 ```bash
 git clone <repository-url>
 
-## Run the app
+## Run app 
 streamlit run app.py
 
-## Files and Structure
 
-- **app.py:** Contains the main code for the Streamlit web application.
-- **pac_model.pkl:** Pre-trained model file for sentiment analysis.
-- **tfidf_vectorizer.pkl:** Pickle file containing TF-IDF vectorizer for text preprocessing.
-- **all_text.txt:** Text file containing training dataset for sentiment analysis.
-- **all_text1.txt:** Text file containing testing dataset for sentiment analysis.
+**Files and Structure**
 
-## Technologies Used
+app.py: Contains the main code for the Streamlit web application.
+pac_model.pkl: Pre-trained model file for sentiment analysis.
+tfidf_vectorizer.pkl: Pickle file containing TF-IDF vectorizer for text preprocessing.
+all_text.txt: Text file containing training dataset for sentiment analysis.
+all_text1.txt: Text file containing testing dataset for sentiment analysis.
 
-- **Streamlit:** For building the interactive web application.
-- **Pandas, NumPy:** For data manipulation and processing.
-- **Altair, Matplotlib, Seaborn:** For data visualization.
-- **NLTK:** For natural language processing tasks.
-- **WordCloud:** For generating WordCloud visualizations.
+**Technologies Used**
+
+Streamlit: For building the interactive web application.
+Pandas, NumPy: For data manipulation and processing.
+Altair, Matplotlib, Seaborn: For data visualization.
+NLTK: For natural language processing tasks.
+WordCloud: For generating WordCloud visualizations.
 
 ## Acknowledgements
 
