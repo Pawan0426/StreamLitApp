@@ -83,10 +83,9 @@ with col2:
 # Additional visualizations
 st.subheader('Sentiment Distribution')
 
-# Assuming you have data frames for visualization
-# Replace with actual data if available
-df_train = pd.DataFrame({'Sentiment': ['Positive', 'Negative', 'Neutral'], 'Counts': [100, 80, 50]})
-df_test = pd.DataFrame({'Sentiment': ['Positive', 'Negative', 'Neutral'], 'Counts': [30, 40, 30]})
+# In my data frame belows are the count of sentiment values
+df_train = pd.DataFrame({'Sentiment': ['Positive', 'Negative', 'Neutral'], 'Counts': [20831, 22542, 18318]})
+df_test = pd.DataFrame({'Sentiment': ['Positive', 'Negative', 'Neutral'], 'Counts': [277, 266, 285]})
 
 fig, ax = plt.subplots(1, 2, figsize=(14, 5))
 sns.barplot(x='Sentiment', y='Counts', data=df_train, ax=ax[0])
